@@ -1,0 +1,10 @@
+[package]
+name = "noisefilter"
+version = "0.1.0"
+authors = ["Killy <ngoureau8585@gmail.com>"]
+
+[dependencies]
+image = "*"
+rand = "0.3"
+
+[target.x86_32-unknown-linux-gnu.dependencies]
